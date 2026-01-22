@@ -166,9 +166,9 @@ class RuneterraCipher:
 
 # --- STREAMLIT UI ---
 def main():
-    st.set_page_config(page_title="Runeterra Cipher", page_icon="🃏")
+    st.set_page_config(page_title="Chained Gronsfeld: Runeterra edition", page_icon="🃏")
     
-    st.title("🃏 Runeterra Cipher Tool")
+    st.title("🃏 Chained Gronsfeld: Runeterra edition")
     st.markdown("Tools enkripsi/dekripsi menggunakan metode *Block Chaining* & *Gronsfeld* custom.")
     
     cipher = RuneterraCipher()
